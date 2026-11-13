@@ -27,7 +27,7 @@ variable "az_region" {
 variable "azure_vm_size" {
   description = "The Azure VM size to deploy the CTF lab"
   type        = string
-  default     = "Standard_B1s"
+  default     = "Standard_D2lds_v6"
 }
 
 variable "subscription_id" {
