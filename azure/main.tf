@@ -337,7 +337,7 @@ resource "azurerm_virtual_machine_extension" "release_setup" {
 action "azurerm_virtual_machine_power" "ctf_power_off" {
   config {
     virtual_machine_id = azurerm_linux_virtual_machine.ctf_vm.id
-    power_action       = "power_off"
+    power_action       = ""deallocate""
   }
 }
 
